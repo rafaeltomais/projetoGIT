@@ -31,7 +31,7 @@ git merge novo-botao
 Passos quando alterar o código:
 - altere o código do projeto
 - salva na máquina local
-- em BASH: comando 'add .'
-- em BASH: comando 'commit -m "Nome do commit"'
-- em BASH: comando 'push origin *nome da branch sem aspas*'
+- em BASH digitar comando 'git add .'
+- em BASH digitar comando 'git commit -m "Nome do commit"'
+- em BASH digitar comando 'git push origin *nome da branch sem aspas*'
  -->
