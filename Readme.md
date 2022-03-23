@@ -28,6 +28,9 @@ git checkout novo-botao
 Para juntar a branch onde vc estiver (geralmente a main):
 git merge novo-botao
 
+Para clonar o repositorio pra maquina local:
+git clone 'url do repositorio'
+
 Passos para subir pro Github quando alterar o código:
 - altere o código do projeto
 - salva na máquina local
