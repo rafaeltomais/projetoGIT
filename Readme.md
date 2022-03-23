@@ -13,7 +13,7 @@ git remote add origin https://github.com/rafaeltomais/projetoGIT.git |remote é 
 git push -u origin main |Empurrar o que criou em origin para a branch 'main'
 
 Adicionar ou alterar:
-git add . |Commita todos os arquivos alterados
+git add . |Coloca todos os arquivos alterados e salvos em standing
 Não precisa criar outro remote, pois a conexão é feita apenas uma vez
 
 Crianco uma branch:
@@ -28,7 +28,7 @@ git checkout novo-botao
 Para juntar a branch onde vc estiver (geralmente a main):
 git merge novo-botao
 
-Passos quando alterar o código:
+Passos para subir pro Github quando alterar o código:
 - altere o código do projeto
 - salva na máquina local
 - em BASH digitar comando 'git add .'
