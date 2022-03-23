@@ -16,7 +16,15 @@ Adicionar ou alterar:
 git add . |Commita todos os arquivos alterados
 Não precisa criar outro remote, pois a conexão é feita apenas uma vez
 
-Crianco uma branch
+Crianco uma branch:
 git checkout -b "novo-botao" |sai da branch 'main' e cria (e já entra na branch 'novo-botao')
+git commit -m "novo-botao" 
+Para ver em qual branch que está, é só olhar no bash.
 
+Para alterar entre as branches:
+git checkout main
+git checkout novo-botao
+
+Para juntar a branch onde vc estiver (geralmente a main):
+git merge novo-botao
  -->
